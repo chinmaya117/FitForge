@@ -1,0 +1,15 @@
+/* Custom background color */
+.bg-custom {
+    background-color: #4e342e;
+    /* You might want to add more styles here */
+}
+
+/* Navbar hover effect */
+.navbar .nav-item:hover .nav-link {
+    background-color: #ffffff; /* White background */
+    color: #000000; /* Black text */
+    border-radius: 5px; /* Subtle border radius */
+    /* Add transition for smooth effect */
+    transition: background-color 0.3s, color 0.3s;
+    /* You might want to add more styles here */
+}

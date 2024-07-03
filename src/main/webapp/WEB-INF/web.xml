@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd" id="WebApp_ID" version="4.0">
+  <display-name>DemoApp</display-name>
+   <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+  </welcome-file-list>
+  
+<servlet>
+    <servlet-name>EditPlanServlet</servlet-name>
+    <servlet-class>com.chinmaya.EditPlanServlet</servlet-class>
+</servlet>
+
+<servlet>
+    <servlet-name>AddPlanServlet</servlet-name>
+    <servlet-class>com.chinmaya.AddPlanServlet</servlet-class>
+</servlet>
+
+<servlet-mapping>
+    <servlet-name>EditPlanServlet</servlet-name>
+    <url-pattern>/admin/EditPlanServlet</url-pattern>
+</servlet-mapping>
+
+<servlet-mapping>
+    <servlet-name>AddPlanServlet</servlet-name>
+    <url-pattern>/admin/AddPlanServlet</url-pattern>
+</servlet-mapping>
+
+<servlet>
+    <servlet-name>EditEnquiryServlet</servlet-name>
+    <servlet-class>com.chinmaya.EditEnquiryServlet</servlet-class>
+</servlet>
+
+<servlet>
+    <servlet-name>AddEnquiryServlet</servlet-name>
+    <servlet-class>com.chinmaya.AddEnquiryServlet</servlet-class>
+</servlet>
+
+<servlet-mapping>
+    <servlet-name>EditEnquiryServlet</servlet-name>
+    <url-pattern>/admin/EditEnquiryServlet</url-pattern>
+</servlet-mapping>
+
+<servlet-mapping>
+    <servlet-name>AddEnquiryServlet</servlet-name>
+    <url-pattern>/admin/AddEnquiryServlet</url-pattern>
+</servlet-mapping>
+
+<servlet>
+    <servlet-name>EditEquipmentServlet</servlet-name>
+    <servlet-class>com.chinmaya.EditEquipmentServlet</servlet-class>
+</servlet>
+
+<servlet>
+    <servlet-name>AddEquipmentServlet</servlet-name>
+    <servlet-class>com.chinmaya.AddEquipmentServlet</servlet-class>
+</servlet>
+
+<servlet-mapping>
+    <servlet-name>EditEquipmentServlet</servlet-name>
+    <url-pattern>/admin/EditEquipmentServlet</url-pattern>
+</servlet-mapping>
+
+<servlet-mapping>
+    <servlet-name>AddEquipmentServlet</servlet-name>
+    <url-pattern>/admin/AddEquipmentServlet</url-pattern>
+</servlet-mapping>
+
+<servlet>
+    <servlet-name>EditMemberServlet</servlet-name>
+    <servlet-class>com.chinmaya.EditMemberServlet</servlet-class>
+</servlet>
+
+<servlet>
+    <servlet-name>AddMemberServlet</servlet-name>
+    <servlet-class>com.chinmaya.AddMemberServlet</servlet-class>
+</servlet>
+
+<servlet-mapping>
+    <servlet-name>EditMemberServlet</servlet-name>
+    <url-pattern>/admin/EditMemberServlet</url-pattern>
+</servlet-mapping>
+
+<servlet-mapping>
+    <servlet-name>AddMemberServlet</servlet-name>
+    <url-pattern>/admin/AddMemberServlet</url-pattern>
+</servlet-mapping>
+
+<servlet>
+    <servlet-name>DeleteAttendServlet</servlet-name>
+    <servlet-class>com.chinmaya.DeleteAttendServlet</servlet-class>
+</servlet>
+
+<servlet-mapping>
+    <servlet-name>DeleteAttendServlet</servlet-name>
+    <url-pattern>/admin/DeleteAttendServlet</url-pattern>
+</servlet-mapping>
+
+<servlet>
+    <servlet-name>UpdateAttendServlet</servlet-name>
+    <servlet-class>com.chinmaya.UpdateAttendServlet</servlet-class>
+</servlet>
+
+<servlet-mapping>
+    <servlet-name>UpdateAttendServlet</servlet-name>
+    <url-pattern>/admin/UpdateAttendServlet</url-pattern>
+</servlet-mapping>
+
+<servlet>
+    <servlet-name>ChangePasswordServlet</servlet-name>
+    <servlet-class>com.chinmaya.ChangePasswordServlet</servlet-class>
+</servlet>
+
+<servlet-mapping>
+    <servlet-name>ChangePasswordServlet</servlet-name>
+    <url-pattern>/admin/ChangePasswordServlet</url-pattern>
+</servlet-mapping>
+
+<servlet>
+    <servlet-name>UpdateEnquiryServlet</servlet-name>
+    <servlet-class>com.chinmaya.UpdateEnquiryServlet</servlet-class>
+</servlet>
+
+<servlet-mapping>
+    <servlet-name>UpdateEnquiryServlet</servlet-name>
+    <url-pattern>/admin/UpdateEnquiryServlet</url-pattern>
+</servlet-mapping>
+
+<servlet>
+    <servlet-name>EditMaintenanceServlet</servlet-name>
+    <servlet-class>com.chinmaya.EditMaintenanceServlet</servlet-class>
+</servlet>
+
+<servlet-mapping>
+    <servlet-name>EditMaintenanceServlet</servlet-name>
+    <url-pattern>/admin/EditMaintenanceServlet</url-pattern>
+</servlet-mapping>
+
+<servlet>
+    <servlet-name>EditPaymentServlet</servlet-name>
+    <servlet-class>com.chinmaya.EditPaymentServlet</servlet-class>
+</servlet>
+
+<servlet-mapping>
+    <servlet-name>EditPaymentServlet</servlet-name>
+    <url-pattern>/admin/EditPaymentServlet</url-pattern>
+</servlet-mapping>
+
+<servlet>
+    <servlet-name>DeletePlanServlet</servlet-name>
+    <servlet-class>com.chinmaya.DeletePlanServlet</servlet-class>
+</servlet>
+
+<servlet-mapping>
+    <servlet-name>DeletePlanServlet</servlet-name>
+    <url-pattern>/admin/DeletePlanServlet</url-pattern>
+</servlet-mapping>
+
+<servlet>
+    <servlet-name>DeleteEnquiryServlet</servlet-name>
+    <servlet-class>com.chinmaya.DeleteEnquiryServlet</servlet-class>
+</servlet>
+
+<servlet-mapping>
+    <servlet-name>DeleteEnquiryServlet</servlet-name>
+    <url-pattern>/admin/DeleteEnquiryServlet</url-pattern>
+</servlet-mapping>
+
+<servlet>
+    <servlet-name>DeleteEquipmentServlet</servlet-name>
+    <servlet-class>com.chinmaya.DeleteEquipmentServlet</servlet-class>
+</servlet>
+
+<servlet-mapping>
+    <servlet-name>DeleteEquipmentServlet</servlet-name>
+    <url-pattern>/admin/DeleteEquipmentServlet</url-pattern>
+</servlet-mapping>
+
+<servlet>
+    <servlet-name>DeleteMemberServlet</servlet-name>
+    <servlet-class>com.chinmaya.DeleteMemberServlet</servlet-class>
+</servlet>
+
+<servlet-mapping>
+    <servlet-name>DeleteMemberServlet</servlet-name>
+    <url-pattern>/admin/DeleteMemberServlet</url-pattern>
+</servlet-mapping>
+
+
+</web-app>
